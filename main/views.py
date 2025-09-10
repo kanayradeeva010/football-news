@@ -4,7 +4,7 @@ from django.shortcuts import render, redirect, get_object_or_404
 from main.forms import NewsForm
 from main.models import News
 
-# Create your views here.
+# Create your views here
 def show_main(request):
     news_list = News.objects.all()
     context = {
