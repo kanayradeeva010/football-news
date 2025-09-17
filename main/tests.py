@@ -252,3 +252,5 @@ class FootballNewsFunctionalTest(LiveServerTestCase):
         my_button = self.browser.find_element(By.PARTIAL_LINK_TEXT, "My Articles")
         my_button.click()
         self.assertIn("My Test News", self.browser.page_source)
+
+# Done all the tests
